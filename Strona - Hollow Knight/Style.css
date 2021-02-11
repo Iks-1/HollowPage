@@ -1,0 +1,118 @@
+body {
+  background-color: #D5DFFF;
+  font-family: sans-serif;
+  font-size: 18px;
+  color: #0b0b11;
+  font-family: 'Roboto', sans-serif;
+}
+
+#container {
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#menu {
+  margin-top: 20px;
+  background-color: #0A2B48;
+  color: #EFF6FF;
+  padding: 12px;
+}
+#logo {
+  margin-top: 10px;
+    margin-left: 850px;
+  color:#2D3E86;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+#topbar {
+background-color:#24324C;
+color: #DCE4F1;
+padding: 10px;
+margin-top: 20px;
+margin-bottom: 25px;
+height: 120px;
+}
+
+#topbarL {
+float: left;
+padding: 3px;
+width: 140px;
+text-align: center;
+border-right: 3px dotted #92969D;
+}
+
+#topbarR {
+float: left;
+padding: 12px;
+width: 800px;
+font-size: 15px;
+text-align: justify;
+}
+
+#sidebar
+{
+float: left;
+width: 140px;
+min-height: 220px;
+padding: 20px;
+background-color: #ACA8F4;
+text-align: center;
+font-size: 14px;
+}
+
+#content
+{
+float: left;
+padding: 40px;
+width: 840px;
+background-color: #C0C0CB;
+min-height: 180px;
+text-align: justify;
+}
+
+#footer
+{
+  clear:both;
+  text-align: center;
+  padding: 12px;
+ font-size: 12px;
+background-color: #ACA8F4;
+  margin-top: 15px;
+}
+
+.option {
+  float: left;
+  min-width: 50px;
+  height: 30px;
+  font-size: 20px;
+  padding: 8px;
+  border-right: 2px dotted #104C7B;
+}
+
+.option:hover {
+  background-color: #295578;
+  color: white;
+  cursor: pointer;
+}
+
+.optionL {
+font-size: 18px;
+height: 20px;
+border-bottom: 2px dotted #C0C0CB ;
+padding: 6px;
+}
+
+.optionL:hover {
+background-color: #6F6FFF;
+  cursor: pointer;
+    color: white;
+}
+
+.bigtitle
+{
+  font-size: 22px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
